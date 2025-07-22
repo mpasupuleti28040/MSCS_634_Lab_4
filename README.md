@@ -1,32 +1,31 @@
 # MSCS_634_Lab_4
-
 # MSCS 634 – Lab 4: Regression Analysis with Regularization
 🧪 Lab Overview
-In this lab, I experimented with various regression techniques using the Diabetes dataset from sklearn.datasets. The primary aim was to create models that predict the progression of the disease based on medical features and to assess how regularization can help mitigate overfitting and enhance model performance.
+In this lab, I explored several regression techniques using the Diabetes dataset from sklearn.datasets. The main goal was to develop models that predict disease progression based on various medical features and evaluate how regularization techniques can help reduce overfitting and improve model performance.
 
 📂 Files Included
 Lab4_Regression_and_Regularization.ipynb
-This Jupyter Notebook contains the complete code, model implementations, visualizations, and evaluation metrics.
+This Jupyter Notebook contains all the code, model implementations, visualizations, and evaluation metrics.
 
 README.md
-This document provides insights into the lab’s purpose, process, challenges, and results.
+You're reading it! This file provides an overview of the lab’s objectives, insights, challenges, and results.
 
 🔍 Objectives
-My objectives for this lab were to:
+The key objectives for this lab were to:
 
-Implement and compare the following techniques:
+Implement and compare various regression techniques, including:
 
 Simple Linear Regression
 
 Multiple Linear Regression
 
-Polynomial Regression
+Polynomial Regression (Degree 2)
 
 Ridge Regression
 
 Lasso Regression
 
-Evaluate the models using metrics such as:
+Evaluate the models using the following metrics:
 
 Mean Absolute Error (MAE)
 
@@ -36,25 +35,25 @@ Root Mean Squared Error (RMSE)
 
 R-squared (R²)
 
-Visualize the predictions and residuals for deeper insights.
+Visualize predictions and residuals to gain deeper insights.
 
-Investigate how regularization techniques help control model complexity and prevent overfitting.
+Understand how regularization can help control model complexity and prevent overfitting.
 
 📊 Key Insights
-Multiple Regression outperformed Simple Linear Regression by incorporating all available features.
+Multiple Regression performed better than Simple Linear Regression by utilizing all available features.
 
-Polynomial Regression showed better accuracy for lower degrees but tended to overfit as the degree increased.
+Polynomial Regression (degree 2) showed improved accuracy but had potential overfitting concerns, which were briefly discussed in the README.
 
-Both Ridge and Lasso Regression assisted in managing overfitting. Ridge effectively reduced model variance, while Lasso performed feature selection by shrinking some coefficients to zero.
+Ridge and Lasso Regression were both effective in addressing overfitting. Ridge helped reduce model variance, while Lasso performed feature selection by shrinking some coefficients to zero.
 
-Regularization was crucial for improving the model's ability to generalize.
+Regularization played a critical role in improving the model’s generalization capabilities.
 
 ⚠️ Challenges Faced
-Choosing the right polynomial degree without overfitting was challenging.
+Determining the optimal degree for Polynomial Regression without overfitting was challenging.
 
-Experimenting with different alpha values for Ridge and Lasso required careful trial and error.
+Experimenting with different alpha values for Ridge and Lasso required careful tuning and comparisons.
 
-Visualizing performance for high-dimensional regressions was difficult, so I relied heavily on residual plots and evaluation metrics.
+Visualizing the performance of high-dimensional regressions was not straightforward. I relied on residual plots and performance metrics for better understanding.
 
 🛠️ Technologies Used
 Python 3
@@ -68,5 +67,9 @@ Clone or download this repository.
 
 Open the file Lab4_Regression_and_Regularization.ipynb in Jupyter Notebook, JupyterLab, or Google Colab.
 
-Run the cells in sequence to replicate my results and visualizations.
+Run the cells sequentially to reproduce the results and visualizations.
+
+📌 About Me
+I am currently enrolled in MSCS 634 – Data Analytics at the University of the Cumberlands.
+This lab was an essential part of my coursework, allowing me to gain valuable insights into how different regression models perform, how regularization helps in reducing overfitting, and how visualization tools like residual plots enhance model evaluation.
 
